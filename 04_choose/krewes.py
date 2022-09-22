@@ -12,6 +12,7 @@ def get_rand_num():
 
 list = [2, 7, 8]
 
+#FOR LOOP TO VERIFY THAT RESULTS ARE RANDOM // RUNS TEN TIMES
 for i in range(10):
 
   krewes = {2:["Anson", "Efe", "Faiza"], 7:["Ravindra", "Emily", "Sadi"], 8:["Sasha", "Shreya", "Jeffery"]}
