@@ -1,3 +1,5 @@
+import time
+
 '''
 Working On It: Ravindra Mangar and Samantha Hua
 SoftDev
@@ -28,6 +30,8 @@ HOW THIS SCRIPT WORKS:
 import csv
 import random
 
+t0 = time.time()
+
 def random_occupation(filename):
     # declare an empty dictionary
     occupations = {}
@@ -50,4 +54,6 @@ def random_occupation(filename):
         occupations["Total"] = 0
         return random.choices(list(occupations.keys()), weights = occupations.values())
 
+
 print(random_occupation("occupations.csv"))
+print(time.time() - t0)
