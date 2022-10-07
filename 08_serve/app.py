@@ -2,6 +2,7 @@
 
 from flask import Flask
 from numbercruncher import random_occupation
+import csv
 
 app = Flask(__name__) 
 
