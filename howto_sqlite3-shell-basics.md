@@ -18,7 +18,7 @@
 
 <br>
 
-### <a id = 0> </a> 0. How to Run SQLITE in Terminal
+## <a id = 0> </a> 0. How to Run SQLITE in Terminal
 <br>
 
 Open a new terminal and type 
@@ -29,7 +29,7 @@ Open a new terminal and type
 
 <br>
 
-### <a id = 1> </a> 1. Creating a New Table
+## <a id = 1> </a> 1. Creating a New Table
 
 <br>
 
@@ -44,7 +44,7 @@ To view the table, type ```SELECT * FROM <TABLE NAME>;```. <br>
 
 <br>
 
-### <a id = 2> </a> 2. Importing a SQL File (via Terminal)
+## <a id = 2> </a> 2. Importing a SQL File (via Terminal)
 
 <br>
 
@@ -80,7 +80,7 @@ RUNS sql file into sqlite3
 
 <br>
 
-### <a id = 3> </a> 3. SQLITE Dot-Commands (.exit)
+## <a id = 3> </a> 3. SQLITE Dot-Commands (.exit)
 
 <br>
 
@@ -102,7 +102,7 @@ Returns to the terminal
 
 <br>
 
-### <a id = 4> </a> 4. SQLITE Dot-Commands (.mode)
+## <a id = 4> </a> 4. SQLITE Dot-Commands (.mode)
 
 <br>
 
@@ -142,7 +142,7 @@ Will return the inputted table and separate each table value with ", "
 
 <br>
 
-### <a id = 5> </a> 5. SQLITE Dot-Commands (.output)
+## <a id = 5> </a> 5. SQLITE Dot-Commands (.output)
 
 <b>.output DEFINITION</b>
 
