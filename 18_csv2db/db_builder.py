@@ -1,5 +1,5 @@
 #WeLoveTrees - Ravindra Mangar, Kevin Liu, Mahir Riki
-#SoftDev  
+#SoftDev
 #K18 :: (Python+SQLite)3
 #Oct 2022
 #time spent: error hrs (2 hrs)
@@ -19,6 +19,9 @@ studentsDict = csv.DictReader(open("students.csv"))
 c.execute("CREATE TABLE IF NOT EXISTS courses(code, mark, id)")    # run SQL statement
 c.execute("CREATE TABLE IF NOT EXISTS students(name, age, id)")
 
+#f"{time}"
+#"{}".format(time)
+
 for row in coursesDict:
   row_dict = dict(row)
   c.execute("INSERT INTO courses VALUES(?, ?, ?)", (row_dict["code"], row_dict["mark"], row_dict["id"]))
@@ -29,10 +32,11 @@ for row in studentsDict:
 
 
 #VERIFICATION
-#c.execute("SELECT * FROM courses")
-#print(c.fetchall())
-#c.execute("SELECT * FROM students")
-#print(c.fetchall())
+c.execute("SELECT * FROM courses")
+print(c.fetchall())
+print("\n")
+c.execute("SELECT * FROM students")
+print(c.fetchall())
 
 db.commit() #save changes
 db.close()  #close database
