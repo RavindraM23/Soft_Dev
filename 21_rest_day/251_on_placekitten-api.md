@@ -1,3 +1,4 @@
+
 Collected Knowledge & Wisdom on
 # PlaceKitten
 ---
@@ -37,6 +38,5 @@ Accurate as of (last update):    2022-11-22
 
 Contributors:
 
-the two spaces after each name are important!  
-Jun Hong, pd7  
+the two spaces after each name are important!    
 Ravindra Mangar, pd7  
