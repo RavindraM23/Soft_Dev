@@ -1,0 +1,18 @@
+LimeTricycles - Ravindra Mangar and Jun Hong Wang
+SoftDev
+K24: Mmmmmm...Tasty!
+2022-11-30
+time spent: 0.05 hr
+
+DISCO:
+- Callout syntax and button syntax, especially colors, are very similar, if not exactly the same as Foundations
+- Bootstrap "feels a little cleaner," we like the rounded corners of the buttons and callouts.
+- While we opted not to use the JS aspects for our Foundations demo, we have to admit that these are pretty cool.
+
+QCC:
+- What is <path>?
+- What is <span>?
+- Are the svg images a part of the Bootstrap framework by default?
+
+q0: 0
+q1: Bootstrap, because we like the more welcoming feel of the rounded corners and slightly brighter colors.
