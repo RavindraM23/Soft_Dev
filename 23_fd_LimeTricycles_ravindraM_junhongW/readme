@@ -1,0 +1,10 @@
+LimeTricycles - Jun Hong Wong and Ravindra Mangar
+SoftDev
+K23: Foundations 6
+30-11-2022
+
+QCC:
+- The documentation for Foundations 6 is VERY similar to Bootstrap. You may find it's use of classes very familiar.
+- Classes "h1 h2 h3" are like the built in h1, h2, h3 in HTML, except they are scalable.
+- Classes callout, primary/alert/success are like Bootstrap, producing callouts.
+- Classes clear rounded hollow are used for buttons, much like callouts.
